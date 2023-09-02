@@ -10,6 +10,9 @@ function setupNav() {
   if (toc) {
     const content = toc.nextElementSibling as HTMLElement
     content.style.maxHeight = content.scrollHeight + "px"
+    if (window.innerWidth < 1500) {
+      content.style.maxHeight = "0px"
+    }
     toc.removeEventListener("click", toggleNav)
     toc.addEventListener("click", toggleNav)
   }
@@ -18,9 +21,4 @@ function setupNav() {
 window.addEventListener("resize", setupNav)
 document.addEventListener("nav", () => {
   setupNav()
-
-  // update toc entry highlighting
-  observer.disconnect()
-  const headers = document.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]")
-  headers.forEach((header) => observer.observe(header))
 })
