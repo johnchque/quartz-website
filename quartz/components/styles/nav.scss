@@ -1,0 +1,65 @@
+@use "../../styles/variables.scss" as *;
+
+
+
+button#nav-collapse {
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  padding: 0;
+  color: var(--dark);
+  display: none;
+  align-items: center;
+
+  & h3 {
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0;
+  }
+}
+
+#nav {
+  list-style: none;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+
+  &.collapsed > .overflow::after {
+    opacity: 0;
+  }
+
+  & ul {
+    list-style: none;
+    padding: 0;
+    & > li > a {
+      transition:
+        0.5s ease opacity,
+        0.3s ease color;
+      &.in-view {
+        opacity: 0.75;
+      }
+    }
+  }
+}
+
+@media all and (max-width: $fullPageWidth) {
+  .left.sidebar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+  }
+  
+  button#nav-collapse {
+    display: block;
+  }
+
+  #nav {
+    display: block;
+    flex-basis: 100%;
+    flex-grow: 1;
+    background-color: var(--light);
+  }
+}

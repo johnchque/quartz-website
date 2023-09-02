@@ -16,6 +16,8 @@ import Footer from "./Footer"
 import DesktopOnly from "./DesktopOnly"
 import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
+import Nav from "./Nav"
+import NavToggler from "./NavToggler"
 
 export {
   ArticleTitle,
@@ -36,4 +38,6 @@ export {
   DesktopOnly,
   MobileOnly,
   RecentNotes,
+  Nav,
+  NavToggler
 }
