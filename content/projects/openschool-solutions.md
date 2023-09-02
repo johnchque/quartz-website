@@ -5,7 +5,7 @@ description: "Program run by Stadion.dk to develop sustainable projects in Copen
 type: active
 role: "Co-Founder"
 date: 2021-05-01
-updated: 2021-12-30
+updated: 2023-12-30
 work: "
 - Led the development and deployment of the platform, facilitating testing and usage by students.<br>
 - Responded actively to user feedback, refining the user experience to ensure optimal engagement.<br>

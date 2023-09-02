@@ -18,7 +18,7 @@ I also currently collaborate with <a href="https://www.openschoolsolutions.com/"
 
 Before enrolling in this master's program, I worked for around 5 years as a software developer at <a href="https://www.md-systems.ch/en" target="_blank">MD Systems GmbH</a>, the top <a href="https://www.drupal.org/">Drupal</a> contributor in Switzerland.
 
-I am an advocate of multidisciplinarity and collaboration. This allowed me to create my own initiatives related to mental health awareness, sustainability, music, video production, and game design. You can see all my previous projects <a href="/project">here</a>.
+I am an advocate of multidisciplinarity and collaboration. This allowed me to create my own initiatives related to mental health awareness, sustainability, music, video production, and game design. You can see all my previous projects [[projects|here]].
 
 On the side, I focus on developing my <a href="/garden">digital garden</a> where I upload my own essays and notes.
 
