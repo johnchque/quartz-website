@@ -5,16 +5,21 @@ function PageTitle({ fileData, cfg }: QuartzComponentProps) {
   const title = cfg?.pageTitle ?? "Untitled Quartz"
   const baseDir = pathToRoot(fileData.slug!)
   return (
-    <h1 class="page-title">
-      <a href={baseDir}>John</a>
-    </h1>
+    <a className="page-title" href={baseDir}>
+      <img src={"/images/logo.svg"}></img>
+    </a>
   )
 }
 
 PageTitle.css = `
 .page-title {
-  margin: 0;
+  height: 43px;
 }
+.page-title img {
+  margin: 0;
+  height: 100%;
+}
+
 `
 
 export default (() => PageTitle) satisfies QuartzComponentConstructor

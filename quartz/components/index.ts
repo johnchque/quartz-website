@@ -39,6 +39,7 @@ export {
   DesktopOnly,
   MobileOnly,
   RecentNotes,
+  NotFound,
   Nav,
   NavToggler
 }
