@@ -2,8 +2,8 @@
 title: Nordic AI Meet poster
 ---
 
-[[projects|Poster references]].
+[[|Poster references]].
 
 [[projects|Full poster]].
 
-[[projects|Original thesis]].
+[[/files/master_thesis.pdf|Original thesis]].
