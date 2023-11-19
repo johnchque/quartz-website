@@ -20,6 +20,7 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Nav from "./Nav"
 import NavToggler from "./NavToggler"
+import Breadcrumbs from "./Breadcrumbs"
 
 export {
   ArticleTitle,
@@ -43,5 +44,6 @@ export {
   RecentNotes,
   NotFound,
   Nav,
-  NavToggler
+  NavToggler,
+  Breadcrumbs
 }
