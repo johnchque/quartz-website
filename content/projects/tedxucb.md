@@ -13,7 +13,7 @@ work: "
 - Conceptualised event venue and stage layouts."
 url_facebook: https://www.facebook.com/TedxUcb
 url_instagram: https://www.instagram.com/tedxucb
-tags: ["#volunteering"]
+tags: ["volunteering"]
 ---
 
 ![TEDxUCB 2019](/assets/images/projects/tedxucb/tedxucb_banner.jpg "TEDxUCB 2019 Team"){:.img-fluid.mb-2}

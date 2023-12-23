@@ -11,7 +11,7 @@ work: "
 - Provided guidance and support to foreign interns, facilitating their adaptation to the local culture.<br>
 - Assisted in the successful placement of 7 students in international internships, contributing to their professional development and cross-cultural experience."
 url_facebook: https://www.facebook.com/iaestebolivia
-tags: ["#volunteering"]
+tags: ["volunteering"]
 ---
 
 IAESTE is a worldwide organization that facilitates international exchange programs for students in the fields of science, engineering, technology, and applied arts. IAESTE provides opportunities for students to gain practical work experience in their chosen fields by arranging internships or traineeships abroad.
