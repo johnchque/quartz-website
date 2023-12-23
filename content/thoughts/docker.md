@@ -17,7 +17,6 @@ When we run the image, it creates a container.
 
 A container is a process which runs our application as outlined by the image we created.
 
-### Containers 
 Containers are completely isolated from the processes of the computer.
 
 We can share the docker images to make a container to run the application.
@@ -40,7 +39,7 @@ The supported tags are different variations of the node images that we can use.
 Once the image is run and the container is created. We can stop, restart, and delete the container.
 We can also interact with the container and run commands inside there.
 
-### The dockerfile
+## The dockerfile
 A set of instructions to docker to create the image.
 Instructions to create the layers on an image.
 ```
@@ -83,11 +82,11 @@ docker build -t myapp .
 -t tag.
 . is a relative path to the docker file.
 
-### .dockerignore
+## .dockerignore
 In this file we can specify any files or folders that we want docker to ignore when it copies them over to the image.
 If we have node_modules on the local folder, it is good to ignore it because the packages may be outdated and they make the images much larger by copying unnecessary files that the container will have when it is run.
 
-### Containers
+## Containers
 ```
 docker images
 ```
@@ -113,11 +112,11 @@ docker start [containername]
 ```
 Starts an existing container.
 
-### Layer caching
+## Layer caching
 Once an image is created it is read only. We need to make a new image to reflect the changes in our code.
 If we copy the package.json before the rest of the files, then we can have npm install cached as well.
 
-### Managing images and containers
+## Managing images and containers
 ```
 docker images // lists the images.
 docker ps // lists the containers.
@@ -138,7 +137,7 @@ To delete all containers and all images
 docker system prune -a
 ```
 
-### Volumes
+## Volumes
 Docker run will create a new container from scratch.
 Docker start will take a container that is already made.
 
@@ -159,7 +158,7 @@ Anonymous volumes
 ```
 It rewrites the previous volume and keeps the folder mapped to a folder managed by docker.
 
-### Docker compose
+## Docker compose
 Gives a way to make a single docker compose file that contains all the configuration of our projects. 
 First specify the version of docker compose.
 ```
@@ -189,7 +188,7 @@ docker-compose down [--rmi all -v]
 Removes the container but keeps the images and volumes.
 --rmi all -v will delete both images and volumes.
 
-### Dockerising a React App
+## Dockerising a React App
 .dockerignore
 ```
 node_modules
