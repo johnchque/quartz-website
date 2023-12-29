@@ -2,11 +2,11 @@
 ## Software development
 GraphQL course - DONE
 URL: https://www.youtube.com/watch?v=xMCnDesBggM&list=PL4cUxeGkcC9gUxtblNUahcsg0WLxmrK_y
-Notes: [[graphql]]
+Notes: [[graphql|GraphQL]]
 
 Docker course - DONE
 URL: https://www.youtube.com/watch?v=31ieHmcTUOk&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=1
-Notes: [[docker]]
+Notes: [[docker|Docker]]
 
 
 
