@@ -8,6 +8,10 @@ Docker course - DONE
 URL: https://www.youtube.com/watch?v=31ieHmcTUOk&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=1
 Notes: [[docker|Docker]]
 
+React course - DONE
+URL: https://www.youtube.com/watch?v=j942wKiXFu8&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=1
+Notes: [[react|React]]
+
 
 
 
