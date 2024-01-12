@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "I wish I was excited about AGI"
+title: "How can we 'benefit all humanity' in the time of AI"
 date: 2023-01-12
 updated: 2023-01-12
 description: 'But what does it mean to "benefit all humanity"?'
 category: research
 tags: [ai, algorithmicfairness]
 ---
-But what does it mean to "benefit all humanity"?
+What does it mean to "benefit all humanity"?
 
-### To benefit all humanity
+## To benefit all humanity
 Probably one of the most important developments in modern times is the boom of NLP through Transformer Models. With the release of ChatGPT, multiple opportunities for implementing AI in our daily lives emerged. However, while these technologies have the potential to make a positive impact on the world, there are still big barriers to consider.
 The more I talk to people outside the AI field, the more I realise how fast the field is moving and how scary, difficult, and exhausting it is to be up-to-date with the latest developments. Not only that, but many are even struggling with writing the right prompts to get optimal results. It was documented that the way prompts are written can affect the quality of the outcome after all.
 The problem with this goes much further, I believe because even when AI is being used and implemented in new industries, the challenges of AI models remain. These challenges are related to ethical guidelines, sustainability, and fairness. The latter is a challenge that has been difficult to discuss previously as well. It is well documented how difficult it has been to avoid AI models to present patterns of discrimination and reinforce stereotypes, affecting people at a disadvantage.
