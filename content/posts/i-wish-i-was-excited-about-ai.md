@@ -5,7 +5,7 @@ date: 2023-01-12
 updated: 2023-01-12
 description: 'But what does it mean to "benefit all humanity"?'
 category: research
-tags: [#ai, #algorithmicfairness]
+tags: [ai, algorithmicfairness]
 ---
 But what does it mean to "benefit all humanity"?
 
